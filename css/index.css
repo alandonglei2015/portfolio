@@ -1,0 +1,111 @@
+body {
+	font-family: "Space Mono", Arial, Helvetica;
+    background-image: url("../data-uri/svg/svg_8874d.svg");
+    background-color: #b9adad;
+    color: rgb(29, 21, 21);
+    background-attachment: fixed;
+    
+    
+	}
+    .avatar {
+        display: block;
+        width: 25%;
+        height: auto;
+      }
+
+      .image {
+        display: block;
+        width: 25%;
+        height: auto;
+        float: right;
+        padding: 10px;
+      }
+      
+
+#container {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+p {
+	margin-bottom: 20px;
+    color: #CCC;
+	}
+
+.listmargin  {
+	margin-bottom: 20px;
+}	
+
+.img-style-1 {
+	float: left;
+	margin-right: 10px;
+    margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #CCC;
+}	
+	
+/* tutorial styles */
+
+/* tabs */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid rgb(41, 37, 37);
+    background-color: #ac9d9d;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+    
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(159, 135, 224);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(248, 74, 0);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgb(240, 229, 229);
+    border-top: none;
+    background-color: rgb(226, 217, 217);
+}
+
+.tabcontent {
+    animation: ef 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes ef {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+footer{
+    position: fixed;
+    background-color:rgb(197, 188, 188);
+    color:rgb(20, 14, 14);
+    text-align:center;
+    padding:5px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+  }
